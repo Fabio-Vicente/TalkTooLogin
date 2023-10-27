@@ -18,7 +18,6 @@
 </div>
   
 </div>
-<br />
 
 ## About
 
@@ -94,7 +93,6 @@ A web browser will arise, automatically, opening the app. At most of times, it u
 
 I hope you enjoy the experience! 😄
 
-<br />
 <br />
 
 Want to make contact? Please send me a message on this GitHub or by following the e-mail:
