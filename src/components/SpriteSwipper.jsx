@@ -14,6 +14,7 @@ export default function SpriteSwipper ({ swiperStyles, spriteContainerStyles }) 
           loop
           containerStyle={{ ...swiperStyles, ...styles.swiper }}
           timeout={6}
+          springConfig={{ speed: 2 }}
           controlsProps={{
             DotComponent: ({ _index, _activeIndex, isActive }) => (
               <svg
@@ -30,8 +31,11 @@ export default function SpriteSwipper ({ swiperStyles, spriteContainerStyles }) 
             prevPos: false,
             nextPos: false,
             dotsTouchable: false,
+            dotsPos: 'bottom',
+            cellsStyle: {
+              'bottom': { marginLeft: '52%' },
+            },
           }}
-          springConfig={{ speed: 2 }}
         >
         {
           loginSprites.map((loginSprite) => (
@@ -75,6 +79,10 @@ const styles = StyleSheet.create({
     height: '100%',
     position: 'absolute',
     zIndex: 1,
+  },
+  controlsContainer: {
+    height: 40,
+    backgroundColor: 'yellow',
   },
   control: {
     marginHorizontal: 4
