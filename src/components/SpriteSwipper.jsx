@@ -29,7 +29,7 @@ export default function SpriteSwipper ({ swiperStyles, spriteContainerStyles }) 
             ),
             prevPos: false,
             nextPos: false,
-            dotsTouchable: true,
+            dotsTouchable: false,
           }}
           springConfig={{ speed: 2 }}
         >

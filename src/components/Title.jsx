@@ -1,6 +1,6 @@
 import { StyleSheet, Text } from "react-native";
 
-export default function Modal({ style, children }) {
+export default function Title({ style, children }) {
   return (
     <Text role='heading' aria-level={1} style={[style, styles.title]}>
       {children}
