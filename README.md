@@ -112,6 +112,6 @@ fab10_lima@hotmail.com
 
 <div align=right>
 
-[![Code with love by Fábio Vicente](docs/assets/images/made-with-love.svg)](https://github.com/Fabio-Vicente)
+[![Code with love by Fábio Vicente](docs/assets/badges/made-with-love.svg)](https://github.com/Fabio-Vicente)
 
 </div>
